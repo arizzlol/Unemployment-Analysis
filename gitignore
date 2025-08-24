@@ -1,0 +1,38 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Data files (optional, keep your main dataset)
+*.csv
+!global_unemployment_data.csv
